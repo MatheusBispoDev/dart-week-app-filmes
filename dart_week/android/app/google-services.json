@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1787657426",
+    "project_id": "dart-week-matheusdev",
+    "storage_bucket": "dart-week-matheusdev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1787657426:android:7f169a786bf64aa2f4810b",
+        "android_client_info": {
+          "package_name": "com.example.dart_week"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1787657426-19693a0clt6qoc971cm28685ehkkncgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dart_week",
+            "certificate_hash": "b1ea77ba51701347609465f8d86be99fa7641f0e"
+          }
+        },
+        {
+          "client_id": "1787657426-tesql2pqlh00j99ou1nhapi2bue2ifdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYunuUTePbz5FfCEVn00kl86g7u3hQokY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1787657426-tesql2pqlh00j99ou1nhapi2bue2ifdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
