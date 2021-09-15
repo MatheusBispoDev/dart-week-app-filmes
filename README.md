@@ -1,7 +1,7 @@
 # dart_week
 
 Projeto desenvolvido na Dart Week - 4ª Edição - Disponibilizado pela Academia do Flutter
-- [Academia do Flutter:](http://academiadoflutter.com.br/)
+- [Academia do Flutter](http://academiadoflutter.com.br/)
 
 # Descrição
 
