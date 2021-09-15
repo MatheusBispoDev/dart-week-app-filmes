@@ -27,7 +27,7 @@ Projeto desenvolvido na Dart Week - 4ª Edição - Disponibilizado pela Academia
 * Utilização de `GetX` para gerencia de estado.
 * Utilização de Autenticação com `Firebase - Authentication`.
 * Utilização de conceitos `SOLID`.
-* `Mixin` para adicionar métodos a classes de forma 'isolada' e permitir que somente algumas classes possuam tal comportamento.
+* `Mixin` para adicionar métodos a classes de forma 'isolada' e permitir que somente algumas classes possuam tal comportamento (Herança).
 * `extension` para adicionar comportamentos a classes.
 * Heranças múltiplas com `with`.
 * Compenentização.

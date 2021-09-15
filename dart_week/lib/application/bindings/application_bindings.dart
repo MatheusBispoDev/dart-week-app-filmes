@@ -1,3 +1,4 @@
+import 'package:dart_week/application/auth/auth_service.dart';
 import 'package:dart_week/repositories/login_repository.dart/login_repository.dart';
 import 'package:dart_week/repositories/login_repository.dart/login_repository_impl.dart';
 import 'package:dart_week/services/login/login_service.dart';
@@ -12,5 +13,6 @@ class ApplicationBindings implements Bindings {
     Get.lazyPut<LoginService>(
         () => LoginServiceImpl(loginRepository: Get.find()),
         fenix: true);
+    Get.put(AuthService()).init();
   }
 }
