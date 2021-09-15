@@ -1,7 +1,8 @@
-# dart_week
+# Dart Week
 
 Projeto desenvolvido na Dart Week - 4ª Edição - Disponibilizado pela Academia do Flutter
 - [Academia do Flutter](http://academiadoflutter.com.br/)
+- [Protótipo no Figma](https://www.figma.com/file/uxIIdBQowPYx5KS9nGHS4A/Filmes?node-id=0%3A1)
 
 # Descrição
 
