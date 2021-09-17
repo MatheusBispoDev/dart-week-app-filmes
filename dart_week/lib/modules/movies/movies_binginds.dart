@@ -14,6 +14,9 @@ class MoviesBinginds implements Bindings {
     Get.lazyPut<GenresService>(
         () => GenresServiceImpl(genresReposiroty: Get.find()));
 
-    Get.lazyPut(() => MoviesController(genresService: Get.find(), moviesService: Get.find()));
+    Get.lazyPut(() => MoviesController(
+          genresService: Get.find(),
+          moviesService: Get.find(),
+        ));
   }
 }

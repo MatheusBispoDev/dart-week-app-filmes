@@ -2,6 +2,7 @@ import 'package:dart_week/application/bindings/application_bindings.dart';
 import 'package:dart_week/application/ui/filmes_app_ui_config.dart';
 import 'package:dart_week/modules/home/home_module.dart';
 import 'package:dart_week/modules/login/login_module.dart';
+import 'package:dart_week/modules/movie_detail/movie_detail_module.dart';
 import 'package:dart_week/modules/splash/splash_module.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
         ...SplashModule().routers,
         ...LoginModule().routers,
         ...HomeModule().routers,
+        ...MovieDetailModule().routers,
       ],
     );
   }

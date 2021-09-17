@@ -32,7 +32,7 @@ class GenresReposirotyImpl implements GenresReposiroty {
     );
 
     if (result.hasError) {
-      print('Erro ao bucasr Categorias: ${result.statusText}');
+      print('Erro ao buscar Categorias: ${result.statusText}');
       throw Exception('Erro ao buscar Categorias');
     }
 
