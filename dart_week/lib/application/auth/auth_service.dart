@@ -6,7 +6,8 @@ class AuthService extends GetxService {
 
   // Fica escutando as alterações de usuário
   // Caso o usuário já tenha feito o login, será redirecionado para a pagina de home
-  void init() {
+  Future<void> init() async {
+    //await 2.seconds.delay();
     FirebaseAuth.instance.authStateChanges().listen(
       (User? user) {
         this.user = user;

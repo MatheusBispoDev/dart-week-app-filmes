@@ -16,7 +16,7 @@ class GenresReposirotyImpl implements GenresReposiroty {
     // Como na httpCliente já foi adicionado a url, não precisa coloar a base novamente
     final result = await _restClient.get<List<GenreModel>>(
       url,
-      query: {
+      query: <String, String>{
         'api_key': RemoteConfig.instance.getString('api_token'),
         'language' : 'pt-br',
       },
