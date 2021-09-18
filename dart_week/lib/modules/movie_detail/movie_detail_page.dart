@@ -11,7 +11,10 @@ class MovieDetailPage extends GetView<MovieDetailController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detalhe'),
+        title: const Text(
+          'Detalhe',
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: SingleChildScrollView(
         child: Obx(() {

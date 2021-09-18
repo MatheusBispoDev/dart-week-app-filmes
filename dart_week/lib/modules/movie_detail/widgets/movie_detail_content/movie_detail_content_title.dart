@@ -13,11 +13,11 @@ class MovieDetailContentTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     final double stars = (movie?.stars ?? 1) / 2;
     return Padding(
-      padding: const EdgeInsets.all(12.0),
+      padding: const EdgeInsets.all(8.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: 10),
+          SizedBox(height: 20),
           Text(
             movie?.title ?? '',
             style: TextStyle(
